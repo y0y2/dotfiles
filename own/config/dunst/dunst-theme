@@ -1,0 +1,37 @@
+[urgency_low]
+  # IMPORTANT: colors have to be defined in quotation marks.
+  # Otherwise the # and following would be interpreted as a comment.
+  background = "#282828"
+  foreground = "#ebdbb2"
+  frame_color = 
+  timeout = 10
+
+[urgency_normal]
+  background = "#d79921"
+  foreground = "#282828"
+  frame_color = "#282828"
+  timeout = 10
+
+[urgency_critical]
+  background = "#fb4934"
+  foreground = "#282828"
+  frame_color = "#282828"
+  timeout = 0
+
+[global]
+  # Defines color of the frame around the notification window.
+  frame_color = "#aaaaaa"
+
+  # Define a color for the separator.
+  # possible values are:
+  #  * auto: dunst tries to find a color fitting to the background;
+  #  * foreground: use the same color as the foreground;
+  #  * frame: use the same color as the frame;
+  #  * anything else will be interpreted as a X color.
+  separator_color = frame
+
+  # Paths to default icons.
+  icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+
+# syntax:ssHash
+
